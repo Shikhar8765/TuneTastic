@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_gray"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:text="TuneTastic"
+        android:gravity="center"
+
+        android:layout_alignParentTop="true"></TextView>
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:divider="@color/black"
+        android:dividerHeight="10dp"
+        android:padding="8dp"
+        tools:listitem="@layout/list_item" />
+
+
+
+</RelativeLayout>
